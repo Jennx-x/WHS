@@ -1,2 +1,0 @@
-# WHS
-Proyecto Final JC

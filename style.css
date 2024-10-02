@@ -1,0 +1,22 @@
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+#logo{
+    height: 140px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
