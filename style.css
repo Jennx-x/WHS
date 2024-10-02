@@ -1,22 +1,41 @@
-nav{
+*{
+    background-color:#1d002b;
+    font-family:monospace, Arial, Helvetica, sans-serif;
+}
+
+nav {
     display:flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 4%;
+    padding-right: 26%;
     font-weight: bold;
 }
+
 #logo{
     height: 140px;
 }
 
-ul li{
+.items li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 45px;
 }
 
-a{
-    color: blueviolet;
+.items a{
+    color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+#banner{
+    height: 216px;
+
+}
+
+h2{
+    color:#9b59b6;
+}
+
+p{
+    color: #ecf0f1;
 }
