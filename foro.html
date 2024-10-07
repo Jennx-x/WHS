@@ -58,22 +58,18 @@
 </div>
 
 <div class="comentario">
-    <form action="#"></form>
-    <ul>
-        <li>
-            <label for="name">Nombre de usuario:</label>
-            <input type="text" id="name" name="user_name" placeholder="Ingresa tú nombre de usuario"/>
-        </li>
-        <li>
-            <label for="mail">Correo electrónico:</label>
-            <input type="email" id="mail" name="user_mail" placeholder="Ingresa tú correo electrónico   "/>
-        </li>
-        <li>
-            <label for="msg">Comentario</label>
-            <textarea id="msg" name="user_message" placeholder="Ingresa tú comentario"></textarea>
-        </li>
+    <h4>Pregunta o responde !</h4>
+                <form action="#">
+                    <div class="input__list">
+                        <input type="text" name="User_foro" placeholder="Ingresa tu Usuario" required>
+                        <input type="email" name="email_foro" placeholder="Ingresa tu Email" required> 
+                        <!-- name es el identificador -->
+                    </div>
+                    <textarea placeholder="Comenta"></textarea>
+                    <button type="submit" class="site-btn">Enviar</button>
+                </form>
     </ul>
-</div>
+</div>  
 
 <footer>
     <div class="container">

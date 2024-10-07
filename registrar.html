@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar sesión</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -31,16 +31,18 @@
     <h4>Iniciar Sesión</h4>
                 <form action="#">
                     <div class="login_list">
-                        <input type="text" name="User_log" placeholder="Ingresa tu Usuario" required>
+                        <input type="text" name="User_log" placeholder="Ingresa tu Usuario" required >
                         <input type="email" name="email_log" placeholder="Ingresa tu Email" required> 
                         <input type="password" name="password_log" placeholder="Ingresa tu Contraseña" required> 
+                        <h4>Fecha de nacimiento</h4>
+                        <input type="date" required>
                         <!-- name es el identificador -->
                     </div>
                     <h4>¿Acepta terminos y condiciones?</h4>
                     <input type="checkbox" required>
-                    <button type="submit" class="site-btn">Ingresar</button>
-                    <h4>¿No estás registrado?</h4>
-                    <a href="registrar.html">Registrarse</a>
+                    <button>
+                        <a href="sesion.html">Registrar</a> 
+                    </button>
                 </form>
     </ul>
 </div>  

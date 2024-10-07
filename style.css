@@ -40,18 +40,6 @@ nav {
 }
 /* final del header */
 
-h2{
-    color:#9b59b6;
-}
-
-h3{
-    color: #6929d2;
-}
-
-p{
-    color: #ecf0f1;
-}
-
 /* footer */
 footer{
     background-color: #13001c;
@@ -93,6 +81,21 @@ footer{
     text-decoration: none;
 }
 
+/* final footer */
+
 .frase{
     color: #6200a6;
+}
+
+h2{
+    color:#9b59b6;
+    /* opacity: 0.4; */
+}
+
+h3{
+    color: #6929d2;
+}
+
+p{
+    color: #ecf0f1;
 }
