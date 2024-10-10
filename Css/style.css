@@ -1,6 +1,7 @@
 *{
     
     font-family:monospace, Arial, Helvetica, sans-serif;
+
 }
 body{
     background-color:#1d002b;
@@ -131,13 +132,16 @@ footer{
 .cont{
     margin: 15px;/*margin afecta al espacio que rodea un elemento*/
     width: 40%;
-    background-image: url(/Imagenes/blur.jpg);
-    border-radius: 15px; 
+    background-color: #310048;
+    /* background-image: url(/Imagenes/blur.jpg); */
+    border-radius: 15px;
+    border-color: #1d002b; 
     /* border-width: 3px;
     border-style:solid;
     border-color: #ecf0f1; */
     border: 3px solid #ecf0f1;
     box-sizing: border-box;
+    padding: 5px;
     
 }
 
@@ -163,6 +167,7 @@ footer{
 
 /* final index */
 
+/* comentario foro */
 .comentario{
     text-align: center;
     background-color: black;
@@ -181,7 +186,7 @@ footer{
     border: none;
     border-bottom: 1px solid #6200a6;
     background: transparent;
-    color: #6200a6;
+    color: #9900FF;
     border-radius: 5px;
 
 
@@ -192,6 +197,7 @@ footer{
     margin-bottom: 5px;
     border: 1px solid #6200a6;
     background: transparent;
-    color: #6200a6;
+    color: #9900FF;
     border-radius: 5px;
 }
+/* Fin comentario foro */
