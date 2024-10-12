@@ -73,13 +73,17 @@ nav {
 }
 
 .items a{
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     letter-spacing: 2px;
+    border: none;
+    border-bottom: 1px solid #6200a6;
+    border-radius: 4px;
 }
 
 #banner{
     width: 100%;
+    margin-bottom: 5px;
 }
 /* final del header */
 
@@ -93,7 +97,8 @@ footer{
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center;;
+
 }
 
 .container{
@@ -129,10 +134,13 @@ footer{
 
 
 /* index */
+.contenido_index{
+    position: relative;
+}
 .cont{
     margin: 15px;/*margin afecta al espacio que rodea un elemento*/
     width: 40%;
-    background-color: #310048;
+    background-color: #2c004b;
     /* background-image: url(/Imagenes/blur.jpg); */
     border-radius: 15px;
     border-color: #1d002b; 
@@ -147,14 +155,66 @@ footer{
 
 .cont1{
     position: relative;
+    margin: 5px;
     right: 5%;
     left: 5%;
 }
+
 .cont2{
     position: relative;
     right: 10%;
     left: 50%;
+    top: 10px;
     
+}
+
+.cont3{
+    position: relative;
+    right: 5%;
+    left: 5%;
+    top: 13px;
+}
+
+.cont4{
+    position: relative;
+    right: 5%;
+    left: 52%;
+    top: 2px;
+    margin-bottom: 50px;
+}
+
+#imagen1{
+    width: 450px;
+    border-radius: 5px;
+    position: absolute;
+    left: 54%;
+    top: 1%;
+
+}
+
+#imagen2{
+    width: 470px;
+    border-radius: 5px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+
+}
+
+#imagen3{
+    width: 540px;
+    border-radius: 5px;
+    position: absolute;
+    left: 52%;
+    top: 39%;
+}
+
+#imagen4{
+    width: 500px;
+    border-radius: 5px;
+    position: absolute;
+    left: 10%;
+    top: 62%;
 }
 
 .cont h2{
@@ -164,6 +224,15 @@ footer{
 .cont p{
     text-align: center;
 }
+
+.icono{
+    width: 50px;
+    position: relative;
+    left: 5px;
+    top: 8px;
+}
+
+
 
 /* final index */
 
