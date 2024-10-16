@@ -11,7 +11,7 @@ body{
 }
 
 .frase{
-    color: #6200a6;
+    color: #9900FF;
     font-size: 25px; /*Tamaño*/
     font-weight: 600; /*Grosor */   
     text-align: center;
@@ -73,7 +73,7 @@ nav {
 }
 
 .items a{
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     letter-spacing: 2px;
     border: none;
@@ -85,7 +85,7 @@ nav {
     width: 100%;
     margin-bottom: 5px;
 }
-/* final del header */
+/* final de la barra de navegacion */
 
 
 
@@ -97,39 +97,71 @@ footer{
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: center;;
-
 }
 
 .container{
     width: 90%;
+    margin: 10px;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 80px;
+    gap: 80px; 
 }
 
-.col{
+.contactos{
     text-align: center;
+    
 }
 
-.col ul{
+.contactos ul{
     list-style: none;
     padding: 0%;
 }
 
-.col ul li{
+.contactos ul li{
     margin-bottom: 10px;
 }
 
-.col a{
-    color: azure;
+.contactos a{
+    color: #ecf0f1;
     text-decoration: none;
 }
 
+.cont_mensaje{
+    color: #FFFFFF;
+    background-color: #6929d2;
+    width: 35%;
+    border-radius: 40px;
+}
+
+.cont_mensaje h3{
+    color:#000000;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #000000;
+    border-radius: 8px;
+}
+
+.cont_mensaje h5{
+    color: #13001c;
+    text-align: center;
+
+}
+
+.cont_mensaje span{
+    color: #ffffff;
+}
+
+.cont_mensaje p{
+    color: #000000;
+    text-align: justify;
+    font-size: 15px ;
+    margin: 8px;
+    padding:0 ;
+}
 /* final footer */
 
 
@@ -143,7 +175,7 @@ footer{
     background-color: #2c004b;
     /* background-image: url(/Imagenes/blur.jpg); */
     border-radius: 15px;
-    border-color: #1d002b; 
+    /* border-color: #1d002b;  */
     /* border-width: 3px;
     border-style:solid;
     border-color: #ecf0f1; */
@@ -239,7 +271,7 @@ footer{
 /* comentario foro */
 .comentario{
     text-align: center;
-    background-color: black;
+    background-color: #000000;
     width: 50%;
     position:relative;
     left: 25%;
