@@ -159,7 +159,7 @@ footer{
     color: #000000;
     text-align: justify;
     font-size: 15px ;
-    margin: 8px;
+    margin: 8px;    
     padding:0 ;
 }
 /* final footer */
@@ -267,6 +267,33 @@ footer{
 
 
 /* final index */
+
+/* Nosotros Inicio*/
+.nosotros{
+    position: relative;
+}
+
+.nosotros .1{
+
+}
+
+.nosotros .titulo{
+    font-size: 25px;
+    
+    
+}
+
+.titulo span{
+    color: #f6f6f6;
+    border-bottom:2px solid #CC00FF;
+    border-radius: 2px;
+    font-size: 27px;
+}
+
+.parrafo{
+    width: 45%;
+}
+/* Nosotros Fin*/
 
 /* comentario foro */
 .comentario{
