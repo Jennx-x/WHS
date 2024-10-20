@@ -47,6 +47,7 @@ a{
     letter-spacing: 1.5px;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------- */
 
 
 /* barra de navegación */
@@ -87,6 +88,7 @@ nav {
 }
 /* final de la barra de navegacion */
 
+/* ---------------------------------------------------------------------------------------------------------------- */
 
 
 /* footer */
@@ -131,14 +133,14 @@ footer{
 }
 
 .cont_mensaje{
-    color: #FFFFFF;
+    color: #fff;
     background-color: #6929d2;
     width: 35%;
     border-radius: 40px;
 }
 
 .cont_mensaje h3{
-    color:#000000;
+    color:#fff;
     text-align: center;
     border: none;
     border-bottom: 2px solid #000000;
@@ -146,17 +148,17 @@ footer{
 }
 
 .cont_mensaje h5{
-    color: #13001c;
+    color: #fff;
     text-align: center;
 
 }
 
 .cont_mensaje span{
-    color: #ffffff;
+    color: #000;
 }
 
 .cont_mensaje p{
-    color: #000000;
+    color: #fff;
     text-align: justify;
     font-size: 15px ;
     margin: 8px;    
@@ -164,6 +166,7 @@ footer{
 }
 /* final footer */
 
+/* ---------------------------------------------------------------------------------------------------------------- */
 
 /* index */
 .contenido_index{
@@ -220,7 +223,7 @@ footer{
     border-radius: 5px;
     position: absolute;
     left: 54%;
-    top: 1%;
+    top: 1px;
 
 }
 
@@ -265,22 +268,55 @@ footer{
 }
 
 
-
 /* final index */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
 
 /* Nosotros Inicio*/
 .nosotros{
     position: relative;
 }
 
-.nosotros .1{
+.nosotros .titulo1{
+    font-size: 25px;
 
 }
 
-.nosotros .titulo{
+.nosotros .titulo2{
     font-size: 25px;
-    
-    
+
+}
+
+.somos_img{
+    width: 28%;
+    position: absolute;
+    top: 20px;
+    left: 61%;
+    border-radius: 5px;
+}
+
+.hacemos_img{
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    right: 150% ;
+    border-radius: 5px;
+}
+
+.objetivo_img{
+    width: 23%;
+    position: absolute;
+    top:71%;
+    left: 13%;
+    border-radius: 5px;
+}
+
+.porque_img{
+    width: 70%;
+    position: absolute;
+    bottom: 115%;
+    left: 15%;
+    border-radius: 5px;
 }
 
 .titulo span{
@@ -291,9 +327,28 @@ footer{
 }
 
 .parrafo{
-    width: 45%;
+    text-align: justify;
+
 }
+
+.cont_one{
+    width:40% ;
+    margin: 10px;
+
+}
+
+.cont_two{
+    width:40%;
+    position: relative;
+    left: 55%;
+    margin: 10px;
+
+}
+
+
 /* Nosotros Fin*/
+
+/* ---------------------------------------------------------------------------------------------------------------- */
 
 /* comentario foro */
 .comentario{
@@ -329,3 +384,5 @@ footer{
     border-radius: 5px;
 }
 /* Fin comentario foro */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
