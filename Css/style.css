@@ -350,6 +350,114 @@ footer{
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
+/* Servicios Inicio */
+
+.frase_serv{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.frase_serv_two{
+    text-align: end;
+    position: absolute;
+    top: 270%;
+    color: #6929d2;
+}
+
+.frase_serv_two span{
+    color: #fff ;
+    padding: 5px;
+    margin: 10px;
+}
+
+.bord_one{
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;;
+
+}
+
+.bord_two{
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+.cont_serv{
+    width: 20%;
+    height: 68%;
+    border:2px solid #000;
+    text-align: center;
+    background-color: #000;
+    border-radius: 25px;
+    margin: 6px;
+}
+
+
+.serv_img{
+    width:100%;
+    border-radius: 25px;
+}
+
+.serv_foro{
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+}
+
+.serv_denuncias{
+    position: relative;
+    left: 27%;
+    bottom: 412px;
+
+}
+
+.serv_webinar{
+    position: relative;
+    bottom: 860px;
+    left: 53%;
+}
+
+.serv_recu{
+    position: relative;
+    bottom: 1320px;
+    left:78%;
+}
+
+.serv_auditoria{
+    position: absolute;
+    top: 190%;
+    margin-left: 10px;
+}
+
+.serv_asesoria{
+    position: absolute;
+    top: 190%;
+    left: 400px;
+}
+
+.serv_vpn{
+    position: absolute;
+    bottom: 40%;
+    top: 190%;
+    left: 800px;
+}
+
+.serv_cursos{
+    position: absolute;
+    bottom: 40%;
+    top: 190%;
+    left: 1180px;
+}
+
+.imagen_serv_mid{
+    position: absolute;
+    width: 100%;
+    top: 140%;
+    border-radius: 10px ;
+}
+
+/* Servicios Fin */
+
+
 /* comentario foro */
 .comentario{
     text-align: center;
