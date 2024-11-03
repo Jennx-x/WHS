@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
     <link rel="stylesheet" href="/Css/style.css">
+    <script src="/Js/auth.js" defer></script>
 </head>
 <body>
     <header>    
@@ -12,6 +13,10 @@
             <a href="index.html">
                 <img src="/Imagenes/logo.png" alt="Logo" id="logo">
             </a> 
+            <div id="user-info">
+                <span id="user-name"></span>
+                <a href="#" id="logout-link">Cerrar sesión</a>
+            </div>
             <div class="items">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
@@ -19,13 +24,13 @@
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="foro.html">Foro</a></li>
                     <li><a href="reseñas.html">Reseñas</a></li>
-                    <li><a href="sesion.html">Iniciar Sesión</a></li>
+                    <li><a href="sesion.html" id="login-link">Iniciar Sesión</a></li>
                 </ul>
             </div>
         </nav>
         
         <img src="/Imagenes/banner.png" alt="Banner" id="banner">
-</header>
+    </header>
 
 <div class="servicios">
 
@@ -55,7 +60,7 @@
     <div class="serv_recu cont_serv">
         <img class="serv_img" src="/Imagenes/servicios/recuperacion.jpg" alt="Imagen">
         <h3>Recuperación ante Desastres - <span>$ 1000 USD</span></h3>
-        <p>Te ayudamos a recuperar la operatividad de tus sistemas después de un ataque o incidente cibernético, minimizando el impacto y asegurando una rápida restauración de tus datos.</p>
+        <p>Te ayudamos a recuperar la operatividad de tus sistemas después de un ataque o incidente cibernético, minimizando el impacto.</p>
     </div>
 
     <div class="serv_auditoria cont_serv">
@@ -81,7 +86,6 @@
         <h3>Cursos y Más - <span>$ 1000 USD</span></h3>
         <p>Seleccionamos cuidadosamente una serie de cursos externos sobre ciberseguridad. Estos recursos educativos, impartidos por expertos, te ayudarán a aprender desde lo básico hasta técnicas avanzadas para protegerte en el mundo digital.</p>
     </div>
-    <img class="imagen_serv_mid" src="/Imagenes/servicios/servicios_img.png" alt="Imagen">
     <h3 class="frase_serv_two">"If you think technology can solve your security problems, then you don’t understand the problems and you don’t understand the technology."<br><br><span>--Bruce Schneier, experto en criptografía y seguridad informática.</span></h3>
 </div>
 

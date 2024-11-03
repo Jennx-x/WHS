@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
     <link rel="stylesheet" href="/Css/style.css">
+    <script src="/Js/auth.js" defer></script>
 </head>
 <body>
     <header>    
@@ -12,6 +13,10 @@
             <a href="index.html">
                 <img src="/Imagenes/logo.png" alt="Logo" id="logo">
             </a> 
+            <div id="user-info">
+                <span id="user-name"></span>
+                <a href="#" id="logout-link">Cerrar sesión</a>
+            </div>
             <div class="items">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
@@ -19,13 +24,13 @@
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="foro.html">Foro</a></li>
                     <li><a href="reseñas.html">Reseñas</a></li>
-                    <li><a href="sesion.html">Iniciar Sesión</a></li>
+                    <li><a href="sesion.html" id="login-link">Iniciar Sesión</a></li>
                 </ul>
             </div>
         </nav>
         
         <img src="/Imagenes/banner.png" alt="Banner" id="banner">
-</header>
+    </header>
 
 <div class="nosotros">
     <div class="cont_one">

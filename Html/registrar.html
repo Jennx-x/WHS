@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="/Css/style.css">
 </head>
 <body>
+    <script src="/Js/registro.js" defer></script>
     <header>    
         <nav>
             <a href="index.html">
                 <img src="/Imagenes/logo.png" alt="Logo" id="logo">
             </a> 
+            <div id="user-info">
+                <span id="user-name"></span>
+                <a href="#" id="logout-link">Cerrar sesión</a>
+            </div>
             <div class="items">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
@@ -19,28 +24,29 @@
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="foro.html">Foro</a></li>
                     <li><a href="reseñas.html">Reseñas</a></li>
-                    <li><a href="sesion.html">Iniciar Sesión</a></li>
+                    <li><a href="sesion.html" id="login-link">Iniciar Sesión</a></li>
                 </ul>
             </div>
         </nav>
         
-        <img src="Imagenes/banner.png" alt="" id="banner">
-</header>
+        <img src="/Imagenes/banner.png" alt="Banner" id="banner">
+    </header>
+    
 
-<div class="login">
-    <h4>Iniciar Sesión</h4>
+<div class="login" id="registro">
+    <h4>Registro Úsuario</h4>
                 <form action="#">
                     <div class="login_list">
-                        <input type="text" name="User_log" placeholder="Ingresa tu Usuario" required >
-                        <input type="email" name="email_log" placeholder="Ingresa tu Email" required> 
-                        <input type="password" name="password_log" placeholder="Ingresa tu Contraseña" required> 
+                        <input type="text" name="User_log" placeholder="Ingresa tu Usuario" id="user" required>
+                        <input type="email" name="email_log" placeholder="Ingresa tu Email" id="email" required> 
+                        <input type="password" name="password_log" placeholder="Ingresa tu Contraseña" id="password" required> 
                         <h4>Fecha de nacimiento</h4>
                         <input type="date" required>
                         <!-- name es el identificador -->
                     </div>
                     <h4>¿Acepta terminos y condiciones?</h4>
                     <input type="checkbox" required>
-                    <button>
+                    <button class="registrar2">
                         <a href="sesion.html">Registrar</a> 
                     </button>
                 </form>

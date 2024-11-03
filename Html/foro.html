@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Foro</title>
     <link rel="stylesheet" href="/Css/style.css">
+    <script src="/Js/auth.js" defer></script>
 </head>
 <body>
     <header>    
@@ -12,60 +13,90 @@
             <a href="index.html">
                 <img src="/Imagenes/logo.png" alt="Logo" id="logo">
             </a> 
+            <div id="user-info">
+                <span id="user-name"></span>
+                <a href="#" id="logout-link">Cerrar sesión</a>
+            </div>
             <div class="items">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>    
+                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="foro.html">Foro</a></li>
                     <li><a href="reseñas.html">Reseñas</a></li>
-                    <li><a href="sesion.html">Iniciar Sesión</a></li>
+                    <li><a href="sesion.html" id="login-link">Iniciar Sesión</a></li>
                 </ul>
             </div>
         </nav>
         
         <img src="/Imagenes/banner.png" alt="Banner" id="banner">
-</header>
-
+    </header>
 <div class="foro">
-    <h3>¿Qué es el spoofing?</h3>
-    <p>El spoofing es una técnica en la que un atacante finge ser una entidad legítima para engañar a las víctimas. Puede ocurrir con direcciones de correo electrónico, números de teléfono o sitios web, y su objetivo es robar información o cometer fraudes.</p>
 
-    <h3>¿Cómo funciona el malware de troyano?</h3>
-    <p>El troyano es un tipo de malware que se disfraza como un programa legítimo, pero, una vez ejecutado, permite a los atacantes controlar el dispositivo infectado, robar datos o instalar otros programas maliciosos. Los troyanos suelen propagarse a través de correos electrónicos o descargas inseguras.</p>
+    <div class="comentario1 comen">
+        <h3 class="titulo_f">¿Qué es el spoofing?</h3>
+        <p class="text">El spoofing es una técnica en la que un atacante finge ser una entidad legítima para engañar a las víctimas. Puede ocurrir con direcciones de correo electrónico, números de teléfono o sitios web, y su objetivo es robar información o cometer fraudes.</p>
+    </div>
 
-    <h3>Ransomware en la empresa</h3>
-    <p>En la empresa donde trabajo, algunos archivos importantes han sido bloqueados y hemos recibido un mensaje exigiendo un pago en criptomonedas para liberarlos. Estamos considerando las opciones, pero ¿es recomendable pagar? ¿Alguien ha lidiado con un ataque de ransomware antes y puede ofrecer algún consejo?.</p>
+    <div class="comentario2 comen">
+        <h3 class="titulo_f">¿Cómo funciona el malware de troyano?</h3>
+        <p class="text">El troyano es un tipo de malware que se disfraza como un programa legítimo, pero, una vez ejecutado, permite a los atacantes controlar el dispositivo infectado, robar datos o instalar otros programas maliciosos. Los troyanos suelen propagarse a través de correos electrónicos o descargas inseguras.</p>
+    </div>
 
-    <h3>Acceso a cuenta comprometido</h3>
-    <p>"Hola a todos, hoy intenté iniciar sesión en mi cuenta de correo electrónico, pero me apareció un mensaje diciendo que mi contraseña había sido cambiada hace pocas horas. No recuerdo haber hecho ese cambio. He intentado restablecerla, pero no recibo el correo de recuperación. ¿Qué debería hacer? ¿Alguien ha pasado por algo similar?.</p>
+    <div class="comentario3 comen">
+        <h3 class="titulo_f">Ransomware en la empresa</h3>
+        <p class="text">En la empresa donde trabajo, algunos archivos importantes han sido bloqueados y hemos recibido un mensaje exigiendo un pago en criptomonedas para liberarlos. Estamos considerando las opciones, pero ¿es recomendable pagar? ¿Alguien ha lidiado con un ataque de ransomware antes y puede ofrecer algún consejo?.</p>
+    </div>
 
-    <h3>¿Qué es un zero-day en ciberseguridad?</h3>
-    <p>Un "zero-day" es una vulnerabilidad desconocida en un software o sistema, que los atacantes pueden explotar antes de que los desarrolladores tengan la oportunidad de corregirla. Estos ataques son especialmente peligrosos porque no existe una solución inmediata disponible.</p>
+    <div class="comentario4 comen">
+        <h3 class="titulo_f">Acceso a cuenta comprometido</h3>
+        <p class="text">"Hola a todos, hoy intenté iniciar sesión en mi cuenta de correo electrónico, pero me apareció un mensaje diciendo que mi contraseña había sido cambiada hace pocas horas. No recuerdo haber hecho ese cambio. He intentado restablecerla, pero no recibo el correo de recuperación. ¿Qué debería hacer? ¿Alguien ha pasado por algo similar?.</p>
+    </div>
 
-    <h3>¿Qué diferencia hay entre un hacker ético y un ciberdelincuente?</h3>
-    <p>Un hacker ético utiliza sus habilidades para identificar y corregir vulnerabilidades en los sistemas, ayudando a proteger la información. En cambio, un ciberdelincuente usa sus conocimientos para explotar esas vulnerabilidades y cometer delitos como el robo de datos o extorsión.</p>
+    <div class="comentario5 comen">
+        <h3 class="titulo_f">¿Qué es un zero-day en ciberseguridad?</h3>
+        <p class="text">Un "zero-day" es una vulnerabilidad desconocida en un software o sistema, que los atacantes pueden explotar antes de que los desarrolladores tengan la oportunidad de corregirla. Estos ataques son especialmente peligrosos porque no existe una solución inmediata disponible.</p>
+    </div>
 
-    <h3>Uso de aplicaciones móviles sospechosas</h3>
-    <p>Descargué una aplicación gratuita desde una tienda no oficial porque no estaba disponible en mi país. Ahora, mi teléfono está más lento y recibo notificaciones extrañas. ¿Es posible que la aplicación tenga malware? ¿Cómo puedo eliminarla sin que afecte la seguridad de mi teléfono?</p>
+    <div class="comentario6 comen">
+        <h3 class="titulo_f">¿Hacker ético o un ciberdelincuente?</h3>
+        <p class="text">Un hacker ético utiliza sus habilidades para identificar y corregir vulnerabilidades en los sistemas, ayudando a proteger la información. En cambio, un ciberdelincuente usa sus conocimientos para explotar esas vulnerabilidades y cometer delitos como el robo de datos o extorsión.</p>
+    </div>
 
-    <h3>¿Qué es un ataque man-in-the-middle?</h3>
-    <p>Un ataque man-in-the-middle (MITM) ocurre cuando un atacante intercepta y altera la comunicación entre dos partes sin que estas se den cuenta. El atacante puede robar información confidencial, como contraseñas o datos financieros, al hacerse pasar por una de las partes.</p>
+    <div class="comentario7 comen">
+        <h3 class="titulo_f">Uso de aplicaciones móviles sospechosas</h3>
+        <p class="text">Descargué una aplicación gratuita desde una tienda no oficial porque no estaba disponible en mi país. Ahora, mi teléfono está más lento y recibo notificaciones extrañas. ¿Es posible que la aplicación tenga malware? ¿Cómo puedo eliminarla sin que afecte la seguridad de mi teléfono?</p>
+    </div>
 
-    <h3>Uso de redes Wi-Fi públicas</h3>
-    <p>Frecuentemente trabajo desde cafeterías y otros espacios con Wi-Fi público. A veces realizo tareas sensibles como acceder a mi cuenta bancaria o enviar archivos importantes. Me preocupa que mi información pueda estar en riesgo, pero no estoy seguro de cómo protegerme. ¿Qué herramientas puedo usar para asegurar mis datos en redes Wi-Fi públicas?</p>
+    <div class="comentario8 comen">
+        <h3 class="titulo_f">¿Qué es un ataque man-in-the-middle?</h3>
+        <p class="text">Un ataque man-in-the-middle (MITM) ocurre cuando un atacante intercepta y altera la comunicación entre dos partes sin que estas se den cuenta. El atacante puede robar información confidencial, como contraseñas o datos financieros, al hacerse pasar por una de las partes.</p>
+    </div>
+
+    <div class="comentario9 comen">
+        <h3 class="titulo_f">Uso de redes Wi-Fi públicas</h3>
+        <p class="text">Frecuentemente trabajo desde cafeterías y otros espacios con Wi-Fi público. A veces realizo tareas sensibles como acceder a mi cuenta bancaria o enviar archivos importantes. Me preocupa que mi información pueda estar en riesgo, pero no estoy seguro de cómo protegerme. ¿Qué herramientas puedo usar para asegurar mis datos en redes Wi-Fi públicas?</p>
+    </div>
+
+    <div class="comentario10 comen">
+        <h3 class="titulo_f">¿Cuáles son los tipos de sombreros en ciberseguridad?</h3>
+        <p class="text">En ciberseguridad, los hackers se dividen en:   
+            Sombrero Blanco: Hackers éticos que buscan vulnerabilidades para mejorar la seguridad.
+            Sombrero Negro: Hackers maliciosos que explotan vulnerabilidades ilegalmente.
+            Sombrero Gris: Hackers intermedios que actúan sin permiso, pero sin intenciones maliciosas.</p>
+    </div>
 
 </div>
 
-<div class="comentario">
-    <h4>Pregunta o responde !</h4>
+<div class="comentario_user">
+    <h4 class="titulo_coment">Pregunta o responde !</h4>
                 <form action="#">
                     <div class="input__list">
-                        <input class="input__item" type="text" name="User_foro" placeholder="Ingresa tu Usuario" required>
-                        <input class="input__item" type="email" name="email_foro" placeholder="Ingresa tu Email" required> 
+                        <input class="input__item1" type="text" name="User_foro" placeholder="Ingresa tu Usuario" required>
+                        <input class="input__item2" type="email" name="email_foro" placeholder="Ingresa tu Email" required> 
                         <!-- name es el identificador -->
                     </div>
-                    <textarea class="input__item" placeholder="Comenta"></textarea>
+                    <textarea class="input__item3" placeholder="Comenta"></textarea>
                     <button class="send__com" type="submit" class="site-btn">Enviar</button>
                 </form>
     </ul>

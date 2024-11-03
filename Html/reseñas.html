@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reseñas</title>
     <link rel="stylesheet" href="/Css/style.css">
+    <script src="/Js/auth.js" defer></script>
 </head>
 <body>
     <header>    
@@ -12,6 +13,10 @@
             <a href="index.html">
                 <img src="/Imagenes/logo.png" alt="Logo" id="logo">
             </a> 
+            <div id="user-info">
+                <span id="user-name"></span>
+                <a href="#" id="logout-link">Cerrar sesión</a>
+            </div>
             <div class="items">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
@@ -19,32 +24,51 @@
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="foro.html">Foro</a></li>
                     <li><a href="reseñas.html">Reseñas</a></li>
-                    <li><a href="sesion.html">Iniciar Sesión</a></li>
+                    <li><a href="sesion.html" id="login-link">Iniciar Sesión</a></li>
                 </ul>
             </div>
         </nav>
         
         <img src="/Imagenes/banner.png" alt="Banner" id="banner">
-</header>
+    </header>
 
 <div class="reseñas">
-    <h4>Juan Pérez - CEO de TechGuard Solutions</h4>
-    <p>El equipo de White Hacks nos ayudó a fortalecer nuestra infraestructura de seguridad de una manera que nunca habíamos imaginado. Sus webinars y asesorías personalizadas nos dieron el conocimiento necesario para proteger nuestros datos. Un servicio imprescindible para cualquier empresa que valore la seguridad digital.</p>
+    <div class="calificacion calif_one">
+        <img src="/Imagenes/Calificaciones/one.jpg" alt="Imagen">
+        <h4>Juan Pérez - CEO de TechGuard Solutions</h4>
+        <p>El equipo de White Hacks nos ayudó a fortalecer nuestra infraestructura de seguridad de una manera que nunca habíamos imaginado. </p>
+    </div>
 
-    <h4>María Gómez - Directora de Innovación en SecureNet</h4>
-    <p>Gracias a los cursos recomendados por White Hacks, nuestro equipo ha elevado sus conocimientos en ciberseguridad. La información es clara, precisa y adaptada a diferentes niveles de experiencia. Además, su servicio de VPN ha sido crucial para proteger nuestras conexiones remotas. ¡Totalmente recomendados!</p>
+    <div class="calificacion calif_two">
+        <img src="/Imagenes/Calificaciones/two.jpg" alt="Imagen">
+        <h4>María Gómez - Directora de Innovación en SecureNet</h4>
+        <p>Gracias a los cursos recomendados por White Hacks, nuestro equipo ha elevado sus conocimientos en ciberseguridad. </p>
+    </div>
 
-    <h4>Carlos López - Freelance en Desarrollo Web</h4>
-    <p>Como autónomo, la ciberseguridad siempre me pareció complicada hasta que encontré White Hacks. Las noticias y artículos actualizados me mantienen al día, y la VPN que recomiendan me da la tranquilidad de que mis proyectos están a salvo. Sin duda, el mejor recurso para aprender y protegerse en línea.</p>
+    <div class="calificacion calif_three">
+        <img src="/Imagenes/Calificaciones/three.jpg" alt="Imagen">
+        <h4>Carlos López - Freelance en Desarrollo Web</h4>
+        <p>Como autónomo, la ciberseguridad siempre me pareció complicada hasta que encontré White Hacks. Las noticias y artículos actualizados me mantienen al día, y la VPN que recomiendan me da la tranquilidad de que mis proyectos están a salvo.</p>
+    </div>
 
-    <h4>Sofía Martínez - Consultora de Seguridad Informática</h4>
-    <p>He asistido a varias conferencias y webinars, puedo decir que la calidad del contenido es excelente. El enfoque práctico y las soluciones ofrecidas me han ayudado a implementar mejores estrategias de seguridad para mis clientes. Un servicio de alto valor para profesionales del sector.</p>
+    <div class="calificacion calif_four">
+        <img src="/Imagenes/Calificaciones/four.jpg" alt="Imagen">
+        <h4>Sofía Martínez - Consultora de Seguridad Informática</h4>
+        <p>He asistido a varias conferencias y webinars, puedo decir que la calidad del contenido es excelente.</p>
+    </div>
 
-    <h4>Ana Torres - Responsable de IT en DataShield</h4>
-    <p>La auditoría de seguridad realizada por White Hacks fue un verdadero punto de inflexión para nuestra empresa. Descubrieron vulnerabilidades que desconocíamos y nos proporcionaron un plan claro para solucionarlas. Además, su sección de noticias nos mantiene siempre actualizados sobre las últimas amenazas. No podríamos estar más satisfechos.</p>
+    <div class="calificacion calif_five">
+        <img src="/Imagenes/Calificaciones/five.jpg" alt="Imagen">
+        <h4>Ana Torres - Responsable de IT en DataShield</h4>
+        <p>La auditoría de seguridad realizada por White Hacks fue un verdadero punto de inflexión para nuestra empresa. Descubrieron vulnerabilidades que desconocíamos y nos proporcionaron un plan claro para solucionarlas.</p>
+    </div>
 
-    <h4>Daniela Méndez - Directora de Seguridad en InfoProtec</h4>
-    <p>El enfoque práctico y claro de White Hacks ha hecho que la implementación de nuevas políticas de ciberseguridad en nuestra empresa sea mucho más sencilla. Sus auditorías son exhaustivas, y el soporte que brindan en la recuperación ante desastres es increíblemente valioso.</p>
+
+    <div class="calificacion calif_six">
+        <img src="/Imagenes/Calificaciones/six.jpg" alt="Imagen">
+        <h4>Daniela Méndez - Directora de Seguridad en InfoProtec</h4>
+        <p>El enfoque práctico y claro de White Hacks ha hecho que la implementación de nuevas políticas de ciberseguridad en nuestra empresa sea mucho más sencilla.</p>
+    </div>
 </div>
 
 <footer>
