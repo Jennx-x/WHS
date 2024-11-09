@@ -172,6 +172,11 @@ footer{
     text-decoration: none;
 }
 
+a:visited {
+    color: #6929d2;
+}
+
+
 .cont_mensaje{
     color: #fff;
     background-color: #000;
@@ -230,6 +235,11 @@ footer{
     
 }
 
+.cont:hover{
+    border: 3px solid #6200a6;
+    background-color: #000;
+}
+
 .cont h2{
     color: #6200a6;
     text-align: center;
@@ -259,21 +269,6 @@ footer{
     left: 50%;
     top: 10px;
     
-}
-
-.cont3{
-    position: relative;
-    right: 5%;
-    left: 5%;
-    top: 13px;
-}
-
-.cont4{
-    position: relative;
-    right: 5%;
-    left: 52%;
-    top: 2px;
-    margin-bottom: 50px;
 }
 
 #imagen1{
@@ -385,6 +380,12 @@ footer{
 
 }
 
+.parrafo:hover{
+    border-bottom: 3px solid #CC00FF;
+    background-color: #6200a6;
+    color: #000;
+}
+
 .cont_one{
     width:40% ;
     margin: 10px;
@@ -460,6 +461,10 @@ h3{
     margin: 6px;
 }
 
+.cont_serv:hover{
+    border: 2px solid #6200a6;
+    background-color: #000;
+}
 
 .serv_img{
     width:100%;
@@ -787,6 +792,8 @@ h3{
     padding: 20px;
     background-color: #000;
 }
+
+
 
 .login h4{
     color: #9900ff;
