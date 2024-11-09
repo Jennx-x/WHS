@@ -271,6 +271,21 @@ a:visited {
     
 }
 
+.cont3{
+    position: relative;
+    margin: 5px;
+    right: 5%;
+    left: 5%;
+}
+
+.cont4{
+    position: relative;
+    right: 10%;
+    left: 50%;
+    top: 10px;
+    
+}
+
 #imagen1{
     width: 450px;
     border-radius: 5px;
@@ -302,7 +317,7 @@ a:visited {
     border-radius: 5px;
     position: absolute;
     left: 10%;
-    top: 62%;
+    top: 60%;
 }
 
 
